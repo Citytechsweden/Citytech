@@ -3,10 +3,11 @@ import path from 'path'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
-// Transparent 1x1 PNG fallback for figma:asset/ imports
+// Transparent 1x1 PNG fallback för figma:asset/ imports
 const FALLBACK_PNG = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=';
 
-const VIRTUAL_PREFIX = 'virtual:figma-asset/';
+// ✅ VIKTIGT: \0 prefix krävs av Rollup i produktionsbyggen!
+const VIRTUAL_PREFIX = '\0virtual:figma-asset/';
 
 function figmaAssetPlugin() {
   return {
@@ -14,6 +15,7 @@ function figmaAssetPlugin() {
     enforce: 'pre' as const,
     resolveId(id: string) {
       if (id.startsWith('figma:asset/')) {
+        // Returnera \0-prefixat ID → säkerställer att load() körs i produktion
         return VIRTUAL_PREFIX + id.slice('figma:asset/'.length);
       }
     },
