@@ -2,7 +2,7 @@ import React from 'react';
 import { Home } from 'lucide-react';
 import { FlagIcon } from './FlagIcon';
 import { Language } from '../types';
-import logoImage from 'figma:asset/05240f73322b4949d2e49eee780c6f6d00ea2a6e.png';
+
 
 interface AppHeaderProps {
   onHome: () => void;

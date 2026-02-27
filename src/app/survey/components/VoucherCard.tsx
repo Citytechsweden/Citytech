@@ -2,7 +2,7 @@ import React, { RefObject } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Scan } from 'lucide-react';
 import QRCode from 'react-qr-code';
-import narvesenLogo from 'figma:asset/5b9a7ac8ec7fb15c124f47c11a906cd46e58ef8d.png';
+
 
 interface VoucherCardProps {
   disclaimer: string;

@@ -5,7 +5,7 @@ import { TermsModal } from './TermsModal';
 import { Language } from '../types';
 import { LanguageTranslation } from '../types';
 import { getReadTermsFirstLabel } from '../utils';
-import introBg from 'figma:asset/4fc8dc28d78b51cf73880bfe9492c1b94ee86a14.png';
+
 
 interface IntroScreenProps {
   t: LanguageTranslation;

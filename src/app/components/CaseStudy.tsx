@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { useLanguage } from "@/app/contexts/LanguageContext";
 import { translations } from "@/app/translations";
 import { LanguageSelector } from "@/app/components/LanguageSelector";
-import heroImage from "figma:asset/2eaea74bda9c646563ded4d477ed6ec7828c9421.png";
+
 
 export function CaseStudy() {
   const [count1, setCount1] = useState(0);

@@ -5,8 +5,8 @@ import { Smile } from 'lucide-react';
 import { AppHeader } from './AppHeader';
 import { VoucherCard } from './VoucherCard';
 import { Language, LanguageTranslation } from '../types';
-import thankYouBg from 'figma:asset/a0765a7dbe788eb546acb2b7d8813cb13994cd62.png';
-import coffeeCup from 'figma:asset/f7b4efc4a9cb0dfe0e5edd8ebb3b937b1b547852.png';
+
+
 
 const reminderMessages: Record<Language, string> = {
   sv: 'Kom ihåg ditt kupong innan du lämnar denna sida!',

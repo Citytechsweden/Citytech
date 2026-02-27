@@ -5,7 +5,7 @@ import { LanguageSelectScreen } from './components/LanguageSelectScreen';
 import { IntroScreen } from './components/IntroScreen';
 import { QuestionScreen } from './components/QuestionScreen';
 import { ThankYouScreen } from './components/ThankYouScreen';
-import transitionBg from 'figma:asset/dff503705b43f0bbed991f8491972a788e525859.png';
+
 
 const fadeScaleVariants = {
   enter: { opacity: 0, scale: 0.96 },

@@ -4,7 +4,7 @@ import { toPng } from 'html-to-image';
 import { Language, LanguageTranslation, QuestionOption, SurveyScreen } from '../types';
 import { surveyTranslations } from '../translations';
 import { supabase } from '../../../lib/supabase';
-import sandnessjoenBg from 'figma:asset/f5ce1ccf36439d36cdf3776998ab023ddbc7ffa4.png';
+
 
 // Steps to skip entirely for Herøy users (0-indexed)
 const HEROY_SKIP_STEPS = [8]; // App experience question is now at step 8

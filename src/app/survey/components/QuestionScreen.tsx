@@ -5,12 +5,12 @@ import { AppHeader } from './AppHeader';
 import { ExitModal } from './ExitModal';
 import { Language, LanguageTranslation, QuestionOption } from '../types';
 import { getSelectOneLabel, getOtherLocationPlaceholder } from '../utils';
-import locationBg from 'figma:asset/d43aef083f830ea7b88039af76e56761089d5b4a.png';
-import heroyBg from 'figma:asset/b366c4aea1717a8f210baef72d464c6ecab4e1ed.png';
-import donnaBg from 'figma:asset/90f7644b5bd4f8b9098eebef59ede51ef5764dac.png';
-import leirfjordBg from 'figma:asset/3a0f958cedd927fb678bdfb9f8eee2ec47027ed5.png';
-import sandnessjoenBg from 'figma:asset/f5ce1ccf36439d36cdf3776998ab023ddbc7ffa4.png';
-import paddleBg from 'figma:asset/dff503705b43f0bbed991f8491972a788e525859.png';
+
+
+
+
+
+
 
 interface QuestionScreenProps {
   t: LanguageTranslation;

@@ -4,8 +4,8 @@ import { FlagIcon } from './FlagIcon';
 import { Language } from '../types';
 import { languageNames } from '../utils';
 
-import exampleImage from 'figma:asset/4fc8dc28d78b51cf73880bfe9492c1b94ee86a14.png';
-import cityTechLogo from 'figma:asset/05240f73322b4949d2e49eee780c6f6d00ea2a6e.png';
+
+
 
 const LANGUAGES: Language[] = ['sv', 'no', 'ru', 'ar', 'en'];
 

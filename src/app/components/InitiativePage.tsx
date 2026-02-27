@@ -12,9 +12,9 @@ import {
   ChevronRight,
 } from 'lucide-react';
 
-import heroImage from 'figma:asset/4cc5438daaf9083c22001af0fa4323bd90114457.png';
-import ctLogo from 'figma:asset/05240f73322b4949d2e49eee780c6f6d00ea2a6e.png';
-import vsLogo from 'figma:asset/796cebb59baa897e04fd3729a8e343435aab6ebb.png';
+
+
+
 
 type Lang = 'sv' | 'no' | 'ru' | 'ar' | 'en';
 
